@@ -1,0 +1,29 @@
+1. **Justificativa:**
+   A função apenas acessa o primeiro elemento da lista. Isso acontece em apenas uma operação, independentemente do tamanho da lista.
+
+2. **Justificativa:**
+   O código percorre toda a lista somando os valores. Como passa por cada elemento uma vez, o número de operações depende do tamanho da lista.
+
+3. **Justificativa:**
+   A cada repetição a busca reduz o tamanho do problema pela metade. Isso acontece até encontrar o valor ou acabar a busca.
+
+4. **Justificativa:**
+   Existem dois loops que percorrem a lista para verificar todas as combinações possíveis de pares. Por isso o número de operações cresce bastante conforme a lista aumenta.
+
+5. **Justificativa:**
+   O primeiro loop percorre a lista uma vez. Depois há dois loops juntos que percorrem todos os pares possíveis, o que gera mais operações.
+
+6. **Justificativa:**
+   A variável dobra de valor a cada repetição do loop. Por isso o número de execuções cresce mais devagar que o tamanho da entrada.
+
+7. **Justificativa:**
+   A função chama ela mesma duas vezes para calcular os valores anteriores. Isso faz o número de chamadas crescer muito rápido conforme n aumenta.
+
+8. **Justificativa:**
+   O algoritmo compara os elementos da lista várias vezes usando dois loops. Assim ele percorre a lista repetidamente até ordenar.
+
+9. **Justificativa:**
+   Existem três loops um dentro do outro para calcular o produto das matrizes. Cada um depende do tamanho da matriz.
+
+10. **Justificativa:**
+    O algoritmo divide a lista em partes menores e depois junta os resultados ordenados. Esse processo acontece várias vezes até ordenar tudo.
